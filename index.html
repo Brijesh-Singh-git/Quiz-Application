@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Testing Quiz Application</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
+
+</head>
+<body>
+	<header role="banner">
+	   <h1> <!-- <img src="" alt="JavaScript logo image" class="logo-img"> -->Software Testing Quiz</h1>
+	</header>
+	<main role="main">
+    <section class="start-section">
+			  <p>Welcome to Testing Quiz!</p>
+		  	<input type="button" value="Start" class="start-button js-start-button">
+	  </section>
+	  	
+	  <div class="quiz-box">
+			 <div class="progress-section">
+			    <span class="question-count"></span>
+			    <hr>
+			    <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ_wbUm1vMiakLbNj1q4biA8lro-mtV_OjvS_wG6q-_9M5peKRBQ" alt="score board image" class="score-img"> -->
+			    <span class="score-card"></span>
+			 </div>
+			 
+		  <div class="quiz-section">
+		 	  <form class="questions-form">
+				  <p></p>
+				  <label class="options">
+				    <input  id="option-one" type="radio" name="option-one">
+				    <span></span>
+				  </label>
+				   <label class="options">
+				    <input id="option-two" type="radio" name="option-one">
+				    <span></span>
+				  </label>
+				   <label class="options">
+				    <input id="option-three" type="radio" name="option-one">
+				    <span></span>
+				  </label>
+				   <label class="options">
+				    <input id="option-four" type="radio" name="option-one">
+				    <span></span>
+				  </label>
+				  <input type="button" value="Submit Answer" class="submit-button js-submit-button">
+			  </form>	
+			</div>
+		</div>
+
+      <section class="feedback-section">
+        <div class="popup-box">
+          <button type="button" class="close-button js-close-button">X</button>
+          <img src="" class="feedback-icon">
+          <span id="popup-text"></span>
+        </div>
+      </section>
+      
+		  <section class="end-section">
+		  	<h4></h4>
+		  	<div class="correct">
+		  	  <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMt-vVqd7jKbIZEL0EchWoW5FXXJFXbpa70w&usqp=CAU" alt="correct-icon"> -->
+		  	  <span class="count"></span>
+		  	 </div>
+		  	 <div class="wrong">
+		  	   	<!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyGk_AHvtphypbgsJNN6qI1qX7v1b2vRXBgLwgGMcSZ95oZqaqug" alt="wrong-icon"> -->
+		    	  <span class="count"></span>
+		  	 </div>
+		     <input type="button" class="startover-button js-startover-button" value="Start Over">
+		  </section>
+  </main>
+	<script src="//code.jquery.com/jquery.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+<footer>
+    Copyright &copy; 2023 | Made with &#10084; by  Brijesh Singh | 
+    
+   
+</footer>
+</html>
