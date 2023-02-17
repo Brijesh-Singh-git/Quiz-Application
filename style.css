@@ -1,10 +1,11 @@
 *{
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   body{
    background-color: wheat;
    font-size: 15px;
+   
   }
   header{
     border-radius: 10px;
@@ -14,6 +15,9 @@
     background-color: rgb(16, 190, 243);
     padding: 3px;
   }
+  .navbar .container-fluid{
+    color: #c0c01c;
+  }
   .logo-img{
     width: 55px;
     height: 50px;
@@ -22,9 +26,16 @@
   }
   .start-section, .end-section, .popup-box{
      font-size: 20px;
-     background-color: rgb(183, 157, 190);
+     background-color: rgb(255, 252, 229);
   }
   
+  .navbar{
+    background-color: darkorchid  ;
+  }
+  .navbar a {
+    color: white;
+    font-weight: bold;
+  }
   .start-section, .end-section{
     padding: 20px;
     text-align: center;

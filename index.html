@@ -3,17 +3,36 @@
 <head>
 	<title>Testing Quiz Application</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	
 </head>
 <body>
+	
+	<nav class="navbar ">
+  <div class="container-fluid">
+    <a class="navbar-brand">Quiz Application </a>
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-warning" type="submit">Login</button>
+    </form>
+  </div>
+</nav>
 	<header role="banner">
 	   <h1> <!-- <img src="" alt="JavaScript logo image" class="logo-img"> -->Software Testing Quiz</h1>
 	</header>
 	<main role="main">
     <section class="start-section">
 			  <p>Welcome to Testing Quiz!</p>
-		  	<input type="button" value="Start" class="start-button js-start-button">
+			  <p><strong>Rules:-</strong> </p>
+			  <ol>
+				<li>Questions are related to Java, Selenium & DevOps.</li>
+				<li>A total of 15 questions are there</li>
+				<li>Every question has only one correct response.</li>
+				<!-- <li>Every question has only one correct response.</li> -->
+			  </ol>
+			  
+			  
+		  	<input type="button" value="Start" class="start-button js-start-button ">
 	  </section>
 	  	
 	  <div class="quiz-box">
@@ -74,7 +93,7 @@
 </body>
 
 <footer>
-    Copyright &copy; 2023 | Made with &#10084; by  Brijesh Singh | 
+    Copyright &copy; 2023 | Coded with &#10084; by  Brijesh Singh | 
     
    
 </footer>

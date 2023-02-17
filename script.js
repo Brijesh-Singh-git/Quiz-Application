@@ -10,8 +10,8 @@ let questionsArray = [
      optionone: "Requirement gathering",
     optiontwo: "Testing",
     optionthree: "Analysis",
-    optionfour: "All of the above",
-    correctAnswer: "All of the above"
+    optionfour: "NOTA",
+    correctAnswer: "NOTA"
   },
   {
      question: "2. The name of the testing which is done to make sure the existing features are not affected by new changes",
